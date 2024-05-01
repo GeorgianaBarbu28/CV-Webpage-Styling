@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(Gilroy-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: Gilroy;
+    width: 595px;
+    height: 842px;
+    border-top: solid 7px #005889;
+  }
+  
+  .container {
+    margin: 36px 23px 69px 48px;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  
+  .contain-name{
+    display: flex;
+  }
+  
+  .contain-header {
+    margin-left: 30px;
+  }
+  
+  .img{
+      width: 100px;
+      border-radius: 70px;
+      margin-right: 10px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    width: 524px;
+    height: 26px;
+  }
+  
+  .personal-details {
+    display: inline-flex;
+    gap: 13px;
+    line-height: 17.5px;
+    margin-top: 7px;
+    margin-bottom: 4px;
+  }
+  
+  .email-details {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17.5px;
+    margin-bottom: 10.5px;
+  }
+  
+  a,
+  h3,
+  #title,
+  #edu,
+  #● {
+    color: #005889;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h3 {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 20px;
+  }
+  
+  .table-skills tr {
+    text-align: center;
+  }
+  
+  
